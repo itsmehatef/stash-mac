@@ -6,6 +6,15 @@ Tiny macOS clipboard history app. Menu-bar only, pops up on `⌘⇧V`, pastes in
 
 **Apple Silicon only · macOS 14+ · no code-signing** — first launch: right-click the app → **Open**.
 
+## Install via Homebrew
+
+```sh
+brew tap itsmehatef/tap
+brew install --cask stash-mac
+```
+
+Then grant Accessibility permission on first paste (**System Settings → Privacy & Security → Accessibility**) so Stash can simulate `⌘V` into the app you were just in.
+
 ## What it does
 
 - Watches the system pasteboard and keeps the last N items (default 5, configurable up to 100).
