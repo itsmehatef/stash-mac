@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d96a3a"/>
+      <stop offset="0.55" stop-color="#b8491f"/>
+      <stop offset="1" stop-color="#6b2408"/>
+    </linearGradient>
+    <linearGradient id="bg-hi" x1="0.2" y1="0" x2="0.2" y2="0.55">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paper1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffefb"/>
+      <stop offset="1" stop-color="#ead8b2"/>
+    </linearGradient>
+    <linearGradient id="paper2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#e6d0a5"/>
+    </linearGradient>
+    <linearGradient id="paper3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#dfc59a"/>
+    </linearGradient>
+    <linearGradient id="clip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4f48"/>
+      <stop offset="1" stop-color="#2a231f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle container using rect with generous corner radius -->
+  <rect x="0" y="0" width="1024" height="1024" rx="228" ry="228" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1024" height="1024" rx="228" ry="228" fill="url(#bg-hi)"/>
+
+  <!-- Back card -->
+  <g transform="translate(512 555) rotate(-11)">
+    <rect x="-240" y="-310" width="480" height="620" rx="40" ry="40" fill="#000" opacity="0.22" transform="translate(6 18)"/>
+    <rect x="-240" y="-310" width="480" height="620" rx="40" ry="40" fill="url(#paper1)"/>
+  </g>
+
+  <!-- Middle card -->
+  <g transform="translate(512 535) rotate(-3)">
+    <rect x="-240" y="-310" width="480" height="620" rx="40" ry="40" fill="#000" opacity="0.22" transform="translate(6 16)"/>
+    <rect x="-240" y="-310" width="480" height="620" rx="40" ry="40" fill="url(#paper2)"/>
+  </g>
+
+  <!-- Front card + clip + text lines -->
+  <g transform="translate(512 515) rotate(5)">
+    <rect x="-240" y="-310" width="480" height="620" rx="40" ry="40" fill="#000" opacity="0.26" transform="translate(6 14)"/>
+    <rect x="-240" y="-310" width="480" height="620" rx="40" ry="40" fill="url(#paper3)"/>
+
+    <!-- Clip silhouette -->
+    <rect x="-58" y="-340" width="116" height="58" rx="14" ry="14" fill="url(#clip)"/>
+    <rect x="-42" y="-350" width="84" height="20" rx="8" ry="8" fill="#1e1814"/>
+
+    <!-- Accent line (the "copy" marker) -->
+    <rect x="-168" y="-210" width="330" height="24" rx="12" fill="#b8491f" opacity="0.85"/>
+
+    <!-- Text lines -->
+    <rect x="-168" y="-150" width="300" height="22" rx="11" fill="#3a352f" opacity="0.28"/>
+    <rect x="-168" y="-100" width="336" height="22" rx="11" fill="#3a352f" opacity="0.22"/>
+    <rect x="-168" y="-50"  width="230" height="22" rx="11" fill="#3a352f" opacity="0.22"/>
+    <rect x="-168" y="0"    width="310" height="22" rx="11" fill="#3a352f" opacity="0.18"/>
+    <rect x="-168" y="50"   width="190" height="22" rx="11" fill="#3a352f" opacity="0.18"/>
+    <rect x="-168" y="100"  width="280" height="22" rx="11" fill="#3a352f" opacity="0.14"/>
+    <rect x="-168" y="150"  width="140" height="22" rx="11" fill="#3a352f" opacity="0.14"/>
+  </g>
+</svg>
