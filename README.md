@@ -2,7 +2,9 @@
 
 Tiny macOS clipboard history app. Menu-bar only, pops up on `⌘⇧V`, pastes into whatever app you were just in.
 
-<!-- screenshot -->
+<p align="center">
+  <img src="docs/screenshots/panel.png" alt="Stash panel" width="720" />
+</p>
 
 **Apple Silicon only · macOS 14+ · no code-signing** — first launch: right-click the app → **Open**.
 
@@ -55,11 +57,21 @@ Start typing to filter.
 
 Menu bar icon → **Settings…**
 
+<p align="center">
+  <img src="docs/screenshots/settings.png" alt="Stash settings" width="560" />
+</p>
+
 - Hotkey recorder
 - History capacity (1–100)
 - Persist history (off by default)
 - Capture: text / images / files
 - Launch at login
+
+Stash lives in the menu bar — no Dock icon.
+
+<p align="center">
+  <img src="docs/screenshots/menubar.png" alt="Stash in menu bar" width="720" />
+</p>
 
 ## Build
 
